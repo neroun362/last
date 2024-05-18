@@ -1,0 +1,2613 @@
+{
+  "id": "46928869-67f0-4733-93c1-1729b8d9b966",
+  "version": "2.0",
+  "name": "test",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "021491c3-854e-4418-8364-febf03b55e7d",
+    "name": "test1",
+    "commands": [{
+      "id": "dbcc23c7-9deb-4d46-b682-1c30c3d76760",
+      "comment": "",
+      "command": "open",
+      "target": "/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19bbbcf5-154b-4a7c-9142-b293f486131a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcd03252-1e49-4f2a-8a0b-ca1ef399fa20",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e408f6cb-9974-4caa-89bb-adbc346b2c78",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Авто",
+      "targets": [
+        ["linkText=Авто", "linkText"],
+        ["css=.nav__item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Авто')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cars')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Авто')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "308d1dd2-36df-432e-9249-58b9f6b4eb9a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Авто",
+      "targets": [
+        ["linkText=Авто", "linkText"],
+        ["css=.nav__item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Авто')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cars')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Авто')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4df96c1b-7d1b-4829-96b3-18f995190368",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Авто",
+      "targets": [
+        ["linkText=Авто", "linkText"],
+        ["css=.nav__active", "css:finder"],
+        ["xpath=//a[contains(text(),'Авто')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cars')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Авто')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b64fdf6-f1bc-40fc-8ff4-4ec720a015c7",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e773fc84-52fc-470b-9714-4d6765534578",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Арендавать",
+      "targets": [
+        ["linkText=Арендавать", "linkText"],
+        ["css=.mb-5:nth-child(2) .car__btn-rent > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Арендавать')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/div/div/section[2]/div/div/div[2]/div/div[2]/button/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cars/Tesla Model S')]", "xpath:href"],
+        ["xpath=//div[2]/button/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Арендавать')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fb5528a-3eb3-4460-95ce-6b476ae26037",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c24b4956-7afc-4cd5-913d-00aa851ea41c",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de443f77-9787-462e-9799-525ff275d335",
+      "comment": "",
+      "command": "click",
+      "target": "name=rentData",
+      "targets": [
+        ["name=rentData", "name"],
+        ["css=.me-4 > input", "css:finder"],
+        ["xpath=//input[@name='rentData']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6600e806-51e7-4d8c-91da-b17c1ea3278a",
+      "comment": "",
+      "command": "type",
+      "target": "name=rentData",
+      "targets": [
+        ["name=rentData", "name"],
+        ["css=.me-4 > input", "css:finder"],
+        ["xpath=//input[@name='rentData']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2024-05-08"
+    }, {
+      "id": "4aab7236-25ed-44cf-ba88-fca2e2ef6d37",
+      "comment": "",
+      "command": "click",
+      "target": "name=rentTime",
+      "targets": [
+        ["name=rentTime", "name"],
+        ["css=.time__picker", "css:finder"],
+        ["xpath=//input[@name='rentTime']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b912770-b7c0-4c03-9ac3-85c5e81649ec",
+      "comment": "",
+      "command": "type",
+      "target": "name=rentTime",
+      "targets": [
+        ["name=rentTime", "name"],
+        ["css=.time__picker", "css:finder"],
+        ["xpath=//input[@name='rentTime']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "14:00"
+    }, {
+      "id": "ab87b03b-cf0e-47b0-bbb1-c73128ed89ab",
+      "comment": "",
+      "command": "click",
+      "target": "name=comments",
+      "targets": [
+        ["name=comments", "name"],
+        ["css=.textarea", "css:finder"],
+        ["xpath=//textarea[@name='comments']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "017f1494-f6e7-4e4d-b285-076e5068656b",
+      "comment": "",
+      "command": "type",
+      "target": "name=comments",
+      "targets": [
+        ["name=comments", "name"],
+        ["css=.textarea", "css:finder"],
+        ["xpath=//textarea[@name='comments']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Детское кресло"
+    }, {
+      "id": "40e6fb5e-9e2a-4fb1-a2f6-148724a2bd78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.payment:nth-child(2) input",
+      "targets": [
+        ["css=.payment:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='radio']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div[2]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17597d1d-9936-49d1-8daa-d49547346845",
+      "comment": "",
+      "command": "click",
+      "target": "css=.payment > button",
+      "targets": [
+        ["css=.payment > button", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//form/div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Арендовать')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0c55cff-d7fa-4930-87a9-668e72875212",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.Toastify__toast-body",
+      "targets": [
+        ["css=.Toastify__toast-body", "css:finder"],
+        ["xpath=//div[@id='1']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Машина уже почти у Вас!👍"
+    }, {
+      "id": "ba44e398-7fc6-4c5c-8986-33fe06d8d2e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.payment__info",
+      "targets": [
+        ["css=.payment__info", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ff5c53a5-3572-4ddb-afd8-6c66541bd16a",
+    "name": "test2",
+    "commands": [{
+      "id": "111bfe37-560d-434f-a526-d163507c0272",
+      "comment": "",
+      "command": "open",
+      "target": "/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85440b03-6165-40a9-89b2-c09d648fc781",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d97dfdbb-a0d4-4984-acf8-e0c8d522430e",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9564d13-0b6a-4842-af8b-fed7e4f3770c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Авто",
+      "targets": [
+        ["linkText=Авто", "linkText"],
+        ["css=.nav__item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Авто')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cars')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Авто')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a75ce93c-2cb8-4de1-91d9-9cb0706e67b9",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b52ae5e-b56e-43f7-864a-5431b395a395",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-5:nth-child(3) .car__btn-rent",
+      "targets": [
+        ["css=.mb-5:nth-child(3) .car__btn-rent", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/section[2]/div/div/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5250f2b7-cd9b-477b-825b-2a32d59864fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-5:nth-child(3) .car__btn-rent > a",
+      "targets": [
+        ["css=.mb-5:nth-child(3) .car__btn-rent > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Арендавать')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/div/div/section[2]/div/div/div[3]/div/div[2]/button/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cars/Mercedes Benz S Class')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/button/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "835c04e1-2955-4f47-9834-d2f0b88d6d1a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a8516ec-7b75-48e8-bd3f-7f6f879e4261",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27130f5e-3135-4b49-9cd7-0554b79512f5",
+      "comment": "",
+      "command": "click",
+      "target": "name=rentData",
+      "targets": [
+        ["name=rentData", "name"],
+        ["css=.me-4 > input", "css:finder"],
+        ["xpath=//input[@name='rentData']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e15f8bef-7f64-44dd-8e0c-3c309efba630",
+      "comment": "",
+      "command": "type",
+      "target": "name=rentData",
+      "targets": [
+        ["name=rentData", "name"],
+        ["css=.me-4 > input", "css:finder"],
+        ["xpath=//input[@name='rentData']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2024-05-09"
+    }, {
+      "id": "0eee770e-a571-4d63-84e3-6dd45bd97ce9",
+      "comment": "",
+      "command": "click",
+      "target": "name=rentTime",
+      "targets": [
+        ["name=rentTime", "name"],
+        ["css=.time__picker", "css:finder"],
+        ["xpath=//input[@name='rentTime']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c149ae4-e1e5-4765-af54-ba6a800cf6d4",
+      "comment": "",
+      "command": "type",
+      "target": "name=rentTime",
+      "targets": [
+        ["name=rentTime", "name"],
+        ["css=.time__picker", "css:finder"],
+        ["xpath=//input[@name='rentTime']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "15:00"
+    }, {
+      "id": "fa5105ab-9f97-4ffc-bfbd-11e9aba54dd2",
+      "comment": "",
+      "command": "click",
+      "target": "name=comments",
+      "targets": [
+        ["name=comments", "name"],
+        ["css=.textarea", "css:finder"],
+        ["xpath=//textarea[@name='comments']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e962d35f-1dc6-4e29-aafd-e9fd3af6b527",
+      "comment": "",
+      "command": "type",
+      "target": "name=comments",
+      "targets": [
+        ["name=comments", "name"],
+        ["css=.textarea", "css:finder"],
+        ["xpath=//textarea[@name='comments']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Услуги водителя"
+    }, {
+      "id": "ed8ad316-e781-429f-82eb-c4898aba1d64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.payment > button",
+      "targets": [
+        ["css=.payment > button", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/section/div/div/div[3]/div/div/div/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//form/div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Арендовать')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "624b76e2-74a3-493f-88b8-0ff2becf132e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.MuiTypography-root",
+      "targets": [
+        ["css=.MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='1']/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Выберите способ оплаты')]", "xpath:innerText"]
+      ],
+      "value": "Выберите способ оплаты"
+    }]
+  }, {
+    "id": "958683de-96d9-4c90-8ef9-1f00cc96d2c8",
+    "name": "test3",
+    "commands": [{
+      "id": "69575e27-a963-4abe-b2aa-1a821825643e",
+      "comment": "",
+      "command": "open",
+      "target": "/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b0e9f84-44eb-4b5a-a8f9-6ba32765c07e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a7ebc57-4aea-4c19-90d7-c76b2c0b517d",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06fa42a2-2cde-44ef-ab92-bca358d06f49",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Контакты",
+      "targets": [
+        ["linkText=Контакты", "linkText"],
+        ["css=.nav__item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Контакты')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/contact')])[2]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Контакты')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "592ba942-72f5-445d-a3ab-111755f93b27",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d80c4952-1932-442a-a571-436b9d451f43",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=question", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/section[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a170cb7f-0e63-4b4a-a281-fe153d204b46",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=question", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/section[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Сколько стоят услуги водителя?"
+    }, {
+      "id": "2d5ea51c-8abb-4d99-ace6-2591326648b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.contact__btn",
+      "targets": [
+        ["css=.contact__btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/section[2]/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить сообщение')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb91ae70-16bc-43c7-9458-887dad97839d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.Toastify__toast-body",
+      "targets": [
+        ["css=.Toastify__toast-body", "css:finder"],
+        ["xpath=//div[@id='1']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "С вами свяжутся, обязательно!👍"
+    }, {
+      "id": "e0f2231e-2387-4deb-9071-b0496e599029",
+      "comment": "",
+      "command": "click",
+      "target": "css=section:nth-child(2)",
+      "targets": [
+        ["css=section:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/section[2]", "xpath:idRelative"],
+        ["xpath=//section[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a66e512f-f5dc-415f-9dba-e514213e578b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4 > .logo span",
+      "targets": [
+        ["css=.col-sm-4 > .logo span", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/header/div[2]/div/div/div/div/h1/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba9a90f7-b619-4842-9c59-1fb48031cc8e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col-sm-4 > .logo span",
+      "targets": [
+        ["css=.col-sm-4 > .logo span", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/header/div[2]/div/div/div/div/h1/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdd0eade-6262-4e80-935b-0c8059307e34",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.col-sm-4 > .logo span",
+      "targets": [
+        ["css=.col-sm-4 > .logo span", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/header/div[2]/div/div/div/div/h1/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce048505-6b2a-40d1-bf7c-4c1cb7e72ec7",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7f9427a1-fcba-4d6c-b69e-f6b380e4947e",
+    "name": "test4",
+    "commands": [{
+      "id": "095b95a6-b74f-4745-80eb-03ea6c77e213",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "361c6f6d-f73f-469a-8e59-9936ae9ec452",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a063c92-3ff0-410d-ab9a-e845aaa39b21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > span",
+      "targets": [
+        ["css=.d-flex > span", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Нет аккаунта? Зарегистрируйтесь')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d1b1b65-e2b9-4a32-8991-2a82d2f69f74",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2200dfc0-b7ab-47db-b822-415278cf5509",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77207a4a-a54c-40dc-aa12-3e372f674f07",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "React App",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31dbdc1f-f038-45e4-bec5-a1594968bb16",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r5:",
+      "targets": [
+        ["id=:r5:", "id"],
+        ["name=firstName", "name"],
+        ["css=#\\3Ar5\\3A", "css:finder"],
+        ["xpath=//input[@id=':r5:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa54d701-574e-46e6-9f6d-5735709a1ad0",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r5:",
+      "targets": [
+        ["id=:r5:", "id"],
+        ["name=firstName", "name"],
+        ["css=#\\3Ar5\\3A", "css:finder"],
+        ["xpath=//input[@id=':r5:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Иван"
+    }, {
+      "id": "97cc5e1f-3343-4173-b897-3a69a90e7f83",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r7:",
+      "targets": [
+        ["id=:r7:", "id"],
+        ["name=lastName", "name"],
+        ["css=#\\3Ar7\\3A", "css:finder"],
+        ["xpath=//input[@id=':r7:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Иванов"
+    }, {
+      "id": "830beaf7-0655-447a-91e2-677deb010f16",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r9:",
+      "targets": [
+        ["id=:r9:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar9\\3A", "css:finder"],
+        ["xpath=//input[@id=':r9:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "+375(29)9999999"
+    }, {
+      "id": "5178f95a-7bc8-4002-a13f-69d2c09e4fad",
+      "comment": "",
+      "command": "click",
+      "target": "id=:rb:",
+      "targets": [
+        ["id=:rb:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Arb\\3A", "css:finder"],
+        ["xpath=//input[@id=':rb:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e75efbd9-1183-4069-9a08-24cd8642683b",
+      "comment": "",
+      "command": "type",
+      "target": "id=:rb:",
+      "targets": [
+        ["id=:rb:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Arb\\3A", "css:finder"],
+        ["xpath=//input[@id=':rb:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "ivanov@mail.ru"
+    }, {
+      "id": "a76a3687-68d5-41fd-81de-e7963bc17428",
+      "comment": "",
+      "command": "click",
+      "target": "id=:rd:",
+      "targets": [
+        ["id=:rd:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ard\\3A", "css:finder"],
+        ["xpath=//input[@id=':rd:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f654054-9467-40a3-8423-336b79490463",
+      "comment": "",
+      "command": "type",
+      "target": "id=:rd:",
+      "targets": [
+        ["id=:rd:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ard\\3A", "css:finder"],
+        ["xpath=//input[@id=':rd:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "b7a2d58c-0a01-4e6a-8bbf-819cf88a225a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf4b3653-af9d-439e-9a63-6d1ceb519031",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "323f421b-affb-4be2-89a4-e6640c6ed231",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Выйти",
+      "targets": [
+        ["linkText=Выйти", "linkText"],
+        ["css=.gap-1", "css:finder"],
+        ["xpath=//a[contains(text(),'Выйти')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Выйти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a27f94a8-79d5-4161-804e-cb81fc9e39fb",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0cae9f7-b0f9-4fa2-bdd7-7594b59ae0de",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "b4115540-0cfd-4036-8f0c-2e430340ae00",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r3:",
+      "targets": [
+        ["id=:r3:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar3\\3A", "css:finder"],
+        ["xpath=//input[@id=':r3:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "62a224ce-b689-46fd-83c1-85b3e1a969c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "453962d2-4d2e-467d-b50b-66e00444f213",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25865500-bfbc-417e-a1e6-e5ed67d9fd86",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=basic-button",
+      "targets": [
+        ["id=basic-button", "id"],
+        ["css=#basic-button", "css:finder"],
+        ["xpath=//button[@id='basic-button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/header/div/div/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f8970d1-1788-4546-b7ea-27c58217faf8",
+      "comment": "",
+      "command": "click",
+      "target": "id=basic-button",
+      "targets": [
+        ["id=basic-button", "id"],
+        ["css=#basic-button", "css:finder"],
+        ["xpath=//button[@id='basic-button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/header/div/div/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23616230-0283-491f-a5b5-73a89cd7adc3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=basic-button",
+      "targets": [
+        ["id=basic-button", "id"],
+        ["css=#basic-button", "css:finder"],
+        ["xpath=//button[@id='basic-button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/header/div/div/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91c9ef7a-405f-4a0d-8f54-72d11da756ac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Пользователи",
+      "targets": [
+        ["linkText=Пользователи", "linkText"],
+        ["css=.MuiButtonBase-root:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Пользователи')]", "xpath:link"],
+        ["xpath=//div[@id='basic-menu']/div[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/allusers')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Пользователи')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bd409f2-4730-4160-ad5c-9910437efa7d",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0b26f44-ad03-4056-a2ff-88edb24378d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiTableRow-root:nth-child(3)",
+      "targets": [
+        ["css=.MuiTableRow-root:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr[3]", "xpath:idRelative"],
+        ["xpath=//tr[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc301480-4b45-4efa-b941-77b7f7ad8e54",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.MuiTableRow-root:nth-child(3) > .MuiTableCell-root:nth-child(4)",
+      "targets": [
+        ["css=.MuiTableRow-root:nth-child(3) > .MuiTableCell-root:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr[3]/td[4]", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[4]", "xpath:position"],
+        ["xpath=//td[contains(.,'+375(29)9999999')]", "xpath:innerText"]
+      ],
+      "value": "+375(29)9999999"
+    }]
+  }, {
+    "id": "b287562d-6cdc-498b-92d0-86c873cdd44b",
+    "name": "test5",
+    "commands": [{
+      "id": "bfbc8910-960f-4c49-859e-5c5325ef7853",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eaeb59f4-0e26-4447-898d-635ef53f2bfe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "242042b4-3b77-4bc4-9140-f63acd8ce4f6",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "React App",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "085cabce-45f3-410f-9a2c-b8b295cf1886",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > span",
+      "targets": [
+        ["css=.d-flex > span", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Нет аккаунта? Зарегистрируйтесь')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbfabf22-316a-40b6-bd15-b52d7cbd26b3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26e61841-e237-4d23-b9fe-9b9d045278e1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10c82f1d-8e0c-41cb-8722-f749b8826edf",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "React App",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a39ecf1-190c-452f-8fe4-8e71a668f437",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r5:",
+      "targets": [
+        ["id=:r5:", "id"],
+        ["name=firstName", "name"],
+        ["css=#\\3Ar5\\3A", "css:finder"],
+        ["xpath=//input[@id=':r5:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c089975-dd4e-4aaa-90b6-d8366b66c656",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r5:",
+      "targets": [
+        ["id=:r5:", "id"],
+        ["name=firstName", "name"],
+        ["css=#\\3Ar5\\3A", "css:finder"],
+        ["xpath=//input[@id=':r5:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Иван"
+    }, {
+      "id": "f3c2cc78-b34e-469f-93ae-db6ac267a838",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r7:",
+      "targets": [
+        ["id=:r7:", "id"],
+        ["name=lastName", "name"],
+        ["css=#\\3Ar7\\3A", "css:finder"],
+        ["xpath=//input[@id=':r7:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Иванов"
+    }, {
+      "id": "e5d0b504-c770-4639-b30d-f5b5303511f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r9:",
+      "targets": [
+        ["id=:r9:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar9\\3A", "css:finder"],
+        ["xpath=//input[@id=':r9:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "+375(29)9998888"
+    }, {
+      "id": "c8cc9382-32d1-4895-bef7-6816908fad6d",
+      "comment": "",
+      "command": "type",
+      "target": "id=:rb:",
+      "targets": [
+        ["id=:rb:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Arb\\3A", "css:finder"],
+        ["xpath=//input[@id=':rb:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "qwerty"
+    }, {
+      "id": "bc82a1a6-4f3a-4116-ad96-3f3f7b87d9b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=:rd:",
+      "targets": [
+        ["id=:rd:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ard\\3A", "css:finder"],
+        ["xpath=//input[@id=':rd:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "cbe2ca79-ab4b-4581-a147-1c62a90486b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c667a55-acd5-434a-9496-ab177dffd65c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c64d1f2-10b4-413a-aaa8-5ccd38949a25",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.Toastify__toast-body",
+      "targets": [
+        ["css=.Toastify__toast-body", "css:finder"],
+        ["xpath=//div[@id='2']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Адрес электронной почты должен содержать символ «@»."
+    }]
+  }, {
+    "id": "46178455-cbe6-4a5f-920e-e5f536ebb289",
+    "name": "test6",
+    "commands": [{
+      "id": "4c22f8e7-d53b-4125-86b5-a9fbdc606530",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdf50ad2-89f2-4af7-a215-0e2712c90f6f",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28bd90b7-c994-47c0-a17f-61e18d5f759f",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "+375(29)1111111"
+    }, {
+      "id": "88c58d98-580d-404b-886e-2189b8f0043e",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r3:",
+      "targets": [
+        ["id=:r3:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar3\\3A", "css:finder"],
+        ["xpath=//input[@id=':r3:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7be3fbc8-8a5e-44f2-9034-83c07f2896c3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76c041b4-ef35-433e-8991-49a5234d62b6",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r3:",
+      "targets": [
+        ["id=:r3:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar3\\3A", "css:finder"],
+        ["xpath=//input[@id=':r3:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "111"
+    }, {
+      "id": "9bbd20cf-454f-483a-bfd1-ab2945409845",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b00f24a-0dea-4013-b26d-28644042f976",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.MuiTypography-root",
+      "targets": [
+        ["css=.MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='1']/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Вы успешно вошли в аккаунт!')]", "xpath:innerText"]
+      ],
+      "value": "Вы успешно вошли в аккаунт!"
+    }, {
+      "id": "24b1094f-9cfc-4fa0-a309-0980caf1f381",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "084b329b-e38c-4e20-b08f-9b3645490414",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "81f20f47-0a99-435c-b264-42de6fbba97d",
+    "name": "test7",
+    "commands": [{
+      "id": "69533302-c926-41e6-985f-249d6706d0cc",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfb67e0b-3d07-4ea6-8619-b2659c2a6c70",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c85e77c-72bd-4603-af37-523107c25630",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c31294b0-a921-42fa-bf44-9bf7b18d4c70",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "+375(29)1234567"
+    }, {
+      "id": "6bfd40f6-37fe-49b1-b51c-e47174825eae",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r3:",
+      "targets": [
+        ["id=:r3:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar3\\3A", "css:finder"],
+        ["xpath=//input[@id=':r3:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e0fb807-dd71-45e9-b8b2-c519f15ffa5a",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r3:",
+      "targets": [
+        ["id=:r3:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar3\\3A", "css:finder"],
+        ["xpath=//input[@id=':r3:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "57bb21b9-7508-4cf3-b36d-95d6086e38fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e20cd96-780d-49bb-814b-010d3a8088a1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.MuiTypography-root",
+      "targets": [
+        ["css=.MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='1']/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Некорректные данные')]", "xpath:innerText"]
+      ],
+      "value": "Некорректные данные"
+    }, {
+      "id": "0af29bf5-6c2a-4e9a-b47b-e15fee5ee676",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "React App",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e63148d-354a-44c9-8bc4-96ec18fb5df7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f84a8dc4-97df-455c-99c5-b103930d1cdc",
+    "name": "test8",
+    "commands": [{
+      "id": "e91f67e6-61bb-4013-b3cc-65458e8019f4",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb54f0e5-f69d-407b-9d6e-3306838ed4fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "324a5a98-0de0-43e6-857b-c7f97526e77c",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddc9ce04-5423-4e47-8897-843af364bcea",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "+375(29)1111111"
+    }, {
+      "id": "d6b6d248-5099-4d40-8055-de1114f38635",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r3:",
+      "targets": [
+        ["id=:r3:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar3\\3A", "css:finder"],
+        ["xpath=//input[@id=':r3:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95f6669d-200e-446b-bdb3-a13159b40012",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5731a2dc-58dc-400e-814a-fa5b5f982225",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r3:",
+      "targets": [
+        ["id=:r3:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar3\\3A", "css:finder"],
+        ["xpath=//input[@id=':r3:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "111"
+    }, {
+      "id": "5c20fef9-536c-425b-b357-63646678f1bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "960765ee-b09e-45a5-9c02-5b96e5c5d5eb",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abc9e492-de04-4c9e-b036-6757b855c550",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=О нас",
+      "targets": [
+        ["linkText=О нас", "linkText"],
+        ["css=.nav__item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'О нас')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'О нас')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c934aa28-f36c-445d-96e1-59362ddfb14c",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b53632a-3945-48b6-86b3-53f3b388b7db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Авто",
+      "targets": [
+        ["linkText=Авто", "linkText"],
+        ["css=.nav__item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Авто')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cars')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Авто')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f5ced85-49d0-4043-9421-763ee583b7f7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Авто",
+      "targets": [
+        ["linkText=Авто", "linkText"],
+        ["css=.nav__item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Авто')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cars')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Авто')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87b9ec7e-228a-4abf-a75f-a9677ce26ee8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Авто",
+      "targets": [
+        ["linkText=Авто", "linkText"],
+        ["css=.nav__active", "css:finder"],
+        ["xpath=//a[contains(text(),'Авто')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cars')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Авто')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5622e44-9047-48d2-830b-ab8c0ab6c749",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4267880e-8adb-414a-8406-1fe4c4f8a167",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main__navbar",
+      "targets": [
+        ["css=.main__navbar", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]", "xpath:idRelative"],
+        ["xpath=//header/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd23faac-3ef8-4282-a0d7-97d8755219b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Контакты",
+      "targets": [
+        ["linkText=Контакты", "linkText"],
+        ["css=.nav__item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Контакты')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/contact')])[2]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Контакты')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cd96774-ad5a-4ef3-966b-3db5f80de44e",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98a4e148-cae8-47bf-bc48-a49e8c7f08ef",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Главная",
+      "targets": [
+        ["linkText=Главная", "linkText"],
+        ["css=.nav__item:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Главная')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/home')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Главная')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be4b7900-b8a2-4f08-b27a-44c0dbd8fb95",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Главная",
+      "targets": [
+        ["linkText=Главная", "linkText"],
+        ["css=.nav__item:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Главная')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/home')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Главная')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "527edec6-6139-4acd-a5d3-d72890957fac",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Главная",
+      "targets": [
+        ["linkText=Главная", "linkText"],
+        ["css=.nav__active", "css:finder"],
+        ["xpath=//a[contains(text(),'Главная')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/home')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Главная')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "626f2e2e-e0e6-44b6-9d4b-a1d724789527",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f72f7ae-5cb9-4f16-9c88-084a99630df6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Выйти",
+      "targets": [
+        ["linkText=Выйти", "linkText"],
+        ["css=.gap-1", "css:finder"],
+        ["xpath=//a[contains(text(),'Выйти')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Выйти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61c03292-b108-4fcf-a191-8f3e1c2f85f6",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "405cc592-c618-4e58-9b40-d32ad55ba39c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "53dccaac-e431-4e8f-b831-a368f895a9f9",
+    "name": "test9",
+    "commands": [{
+      "id": "34511c92-cf06-4d11-a2f5-fde5a14a0933",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "124513e9-f123-44b3-92d8-a5212b3b5780",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c42f670-96ab-4ed7-b8fe-b41e84cde00c",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd63ac26-4bc2-44a1-b6e4-d57f5a2a4983",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "82e61ec4-5ed2-4e00-a03d-7cebc7f3a601",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3606c9e4-bae3-468a-a664-ab5e2fa06426",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r3:",
+      "targets": [
+        ["id=:r3:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar3\\3A", "css:finder"],
+        ["xpath=//input[@id=':r3:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "9300c138-461d-44d7-9a8d-0f6adf89c879",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5178a4ee-5762-408e-9f41-93645d75b30b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b905abf3-c333-49af-8c28-a44cf97c44fa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=basic-button",
+      "targets": [
+        ["id=basic-button", "id"],
+        ["css=#basic-button", "css:finder"],
+        ["xpath=//button[@id='basic-button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/header/div/div/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49ae2491-d2ad-482f-8027-1850539da131",
+      "comment": "",
+      "command": "click",
+      "target": "id=basic-button",
+      "targets": [
+        ["id=basic-button", "id"],
+        ["css=#basic-button", "css:finder"],
+        ["xpath=//button[@id='basic-button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/header/div/div/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0f541b8-ae52-41b1-9bae-18c681bed01d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=basic-button",
+      "targets": [
+        ["id=basic-button", "id"],
+        ["css=#basic-button", "css:finder"],
+        ["xpath=//button[@id='basic-button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/header/div/div/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8c80a35-00f1-4d29-a673-f07ec8a664de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Автомобили",
+      "targets": [
+        ["linkText=Автомобили", "linkText"],
+        ["css=.MuiButtonBase-root:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Автомобили')]", "xpath:link"],
+        ["xpath=//div[@id='basic-menu']/div[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/allcars')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Автомобили')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1de11cc-5fc1-4658-a761-9243ff46dddf",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05addda6-d3b3-4e39-9a9b-be836fd4a981",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-contained",
+      "targets": [
+        ["css=.MuiButton-contained", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f57fa0a-dbd4-42a7-a1fb-b7882ad92f7d",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r7:",
+      "targets": [
+        ["id=:r7:", "id"],
+        ["name=brand", "name"],
+        ["css=#\\3Ar7\\3A", "css:finder"],
+        ["xpath=//input[@id=':r7:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4baf3fa-d4cf-40f7-a30a-acacd077fc91",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r7:",
+      "targets": [
+        ["id=:r7:", "id"],
+        ["name=brand", "name"],
+        ["css=#\\3Ar7\\3A", "css:finder"],
+        ["xpath=//input[@id=':r7:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7205fe5-40af-4627-bde2-8e3c80563c37",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r7:",
+      "targets": [
+        ["id=:r7:", "id"],
+        ["name=brand", "name"],
+        ["css=#\\3Ar7\\3A", "css:finder"],
+        ["xpath=//input[@id=':r7:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Audi"
+    }, {
+      "id": "be563b30-c655-4bd6-81db-e89589e2e9af",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r9:",
+      "targets": [
+        ["id=:r9:", "id"],
+        ["name=carName", "name"],
+        ["css=#\\3Ar9\\3A", "css:finder"],
+        ["xpath=//input[@id=':r9:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Audi Q7"
+    }, {
+      "id": "f12907a2-2c44-4e83-9c8f-658368e943f3",
+      "comment": "",
+      "command": "type",
+      "target": "id=:rb:",
+      "targets": [
+        ["id=:rb:", "id"],
+        ["name=model", "name"],
+        ["css=#\\3Arb\\3A", "css:finder"],
+        ["xpath=//input[@id=':rb:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "2020"
+    }, {
+      "id": "cb46147c-3c63-4c0a-b821-7c6518780aee",
+      "comment": "",
+      "command": "type",
+      "target": "id=:rd:",
+      "targets": [
+        ["id=:rd:", "id"],
+        ["name=price", "name"],
+        ["css=#\\3Ard\\3A", "css:finder"],
+        ["xpath=//input[@id=':rd:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "350"
+    }, {
+      "id": "953e7336-4a0d-489d-b87f-27b3e5e04476",
+      "comment": "",
+      "command": "type",
+      "target": "id=:rf:",
+      "targets": [
+        ["id=:rf:", "id"],
+        ["name=power", "name"],
+        ["css=#\\3Arf\\3A", "css:finder"],
+        ["xpath=//input[@id=':rf:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "304"
+    }, {
+      "id": "38cfc81a-06b5-4739-bcd6-65bf270f4e0d",
+      "comment": "",
+      "command": "type",
+      "target": "id=:rh:",
+      "targets": [
+        ["id=:rh:", "id"],
+        ["name=gps", "name"],
+        ["css=#\\3Arh\\3A", "css:finder"],
+        ["xpath=//input[@id=':rh:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "gps"
+    }, {
+      "id": "20491179-70ea-4e10-924f-12881374f80e",
+      "comment": "",
+      "command": "type",
+      "target": "id=:rj:",
+      "targets": [
+        ["id=:rj:", "id"],
+        ["name=automatic", "name"],
+        ["css=#\\3Arj\\3A", "css:finder"],
+        ["xpath=//input[@id=':rj:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": "автомат"
+    }, {
+      "id": "8ddd9c13-2f7a-41ad-8361-885be0f3ba71",
+      "comment": "",
+      "command": "type",
+      "target": "id=:rl:",
+      "targets": [
+        ["id=:rl:", "id"],
+        ["css=#\\3Arl\\3A", "css:finder"],
+        ["xpath=//input[@id=':rl:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div[8]/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": "Шикарный автомобиль"
+    }, {
+      "id": "8c3bc68b-505c-4bee-b12f-aaca69bdab7e",
+      "comment": "",
+      "command": "click",
+      "target": "id=:rn:",
+      "targets": [
+        ["id=:rn:", "id"],
+        ["name=imgUrl", "name"],
+        ["css=#\\3Arn\\3A", "css:finder"],
+        ["xpath=//input[@id=':rn:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div[9]/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "302d7b62-5821-4193-b06b-75040b7f9cc3",
+      "comment": "",
+      "command": "type",
+      "target": "id=:rn:",
+      "targets": [
+        ["id=:rn:", "id"],
+        ["name=imgUrl", "name"],
+        ["css=#\\3Arn\\3A", "css:finder"],
+        ["xpath=//input[@id=':rn:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div[9]/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/input", "xpath:position"]
+      ],
+      "value": "https://myskillsconnect.com/uploads/posts/2023-07/1688471485_myskillsconnect-com-p-audi-q7-chernaya-foto-38.jpg"
+    }, {
+      "id": "dfddd927-ad86-4e6d-b778-d36885513922",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(11)",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb63cee3-8c9b-40bd-87f1-201ac217963a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23fe32f7-0c13-4030-b051-aad6a9ace742",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.MuiTypography-root",
+      "targets": [
+        ["css=.MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='2']/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Автомобиль успешно добавлен!')]", "xpath:innerText"]
+      ],
+      "value": "Автомобиль успешно добавлен!"
+    }, {
+      "id": "e2f3609e-05ab-4b2d-91a7-c1171a138448",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Авто",
+      "targets": [
+        ["linkText=Авто", "linkText"],
+        ["css=.nav__item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Авто')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cars')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Авто')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f213c359-52d4-4134-8906-68ff02b435d0",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "740751ec-84cc-4f0a-b214-abb8118ecc1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-5:nth-child(11) > .car__item",
+      "targets": [
+        ["css=.mb-5:nth-child(11) > .car__item", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/section[2]/div/div/div[11]/div", "xpath:idRelative"],
+        ["xpath=//div[11]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5448d4cb-8b7a-429b-9aa5-5097087f3e45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-5:nth-child(11) > .car__item",
+      "targets": [
+        ["css=.mb-5:nth-child(11) > .car__item", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/section[2]/div/div/div[11]/div", "xpath:idRelative"],
+        ["xpath=//div[11]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4059d9fa-55b6-4896-a3ba-a4cd5a0747f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=section .row",
+      "targets": [
+        ["css=section .row", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/section[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "343a3cc3-f4cb-4ec2-bc9f-b721f8f64cc6",
+    "name": "test10",
+    "commands": [{
+      "id": "b7a5d472-25c2-4c69-bc16-012d8c6b5ac1",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c757b18-03f5-4142-83c9-7d55296d7950",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58933469-e137-406a-833d-568c5995ffb3",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "React App",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89bcab42-bad2-4f19-8670-aba1c83d8fe6",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "903152fb-e44c-4d18-9923-a6f30f964857",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "5287181e-4340-492b-b322-016734ec45a4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9f08075-e960-47d0-a4ba-bd327aedea72",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r3:",
+      "targets": [
+        ["id=:r3:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar3\\3A", "css:finder"],
+        ["xpath=//input[@id=':r3:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "33187a95-b850-44d4-88ec-1a900ded5b36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29e8053d-901b-4034-b79b-e8bf0ad11221",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e418121-abe7-40dc-8b1b-99aeebe1d960",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=basic-button",
+      "targets": [
+        ["id=basic-button", "id"],
+        ["css=#basic-button", "css:finder"],
+        ["xpath=//button[@id='basic-button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/header/div/div/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb93533f-22df-46f0-ab89-ded3346af701",
+      "comment": "",
+      "command": "click",
+      "target": "id=basic-button",
+      "targets": [
+        ["id=basic-button", "id"],
+        ["css=#basic-button", "css:finder"],
+        ["xpath=//button[@id='basic-button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/header/div/div/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7730398-b444-4170-8775-7f0e089a35fd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=basic-button",
+      "targets": [
+        ["id=basic-button", "id"],
+        ["css=#basic-button", "css:finder"],
+        ["xpath=//button[@id='basic-button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/header/div/div/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd5ca4c1-22b3-4ca6-ba5b-7f993cb53ebe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Автомобили",
+      "targets": [
+        ["linkText=Автомобили", "linkText"],
+        ["css=.MuiButtonBase-root:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Автомобили')]", "xpath:link"],
+        ["xpath=//div[@id='basic-menu']/div[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/allcars')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Автомобили')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0507594-2563-41d5-b3b6-74a6c60dce07",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Автомобили",
+      "targets": [
+        ["linkText=Автомобили", "linkText"],
+        ["css=.MuiButtonBase-root:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Автомобили')]", "xpath:link"],
+        ["xpath=//div[@id='basic-menu']/div[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/allcars')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Автомобили')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa75102f-52b4-441a-a093-e11ea7542f11",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Автомобили",
+      "targets": [
+        ["linkText=Автомобили", "linkText"],
+        ["css=.MuiButtonBase-root:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Автомобили')]", "xpath:link"],
+        ["xpath=//div[@id='basic-menu']/div[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/allcars')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Автомобили')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e068005b-09c2-4ab5-8a8b-1442053da8e7",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec7ab899-fb9f-4d57-b685-71828e940c83",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiTableRow-root:nth-child(1) .MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiTableRow-root:nth-child(1) .MuiButtonBase-root", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr/td[11]/button", "xpath:idRelative"],
+        ["xpath=//td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc14c98c-9208-48f9-bcec-55461df7a661",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiTableRow-root:nth-child(1) .MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiTableRow-root:nth-child(1) .MuiButtonBase-root", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr/td[11]/button", "xpath:idRelative"],
+        ["xpath=//td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7702b12-66ab-4319-822f-7ee22a931703",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiButton-contained:nth-child(1)",
+      "targets": [
+        ["css=.MuiButton-contained:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr/td[11]/button", "xpath:idRelative"],
+        ["xpath=//td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31cec5d8-2773-44c2-aa45-ea1f67ffc59c",
+      "comment": "",
+      "command": "click",
+      "target": "id=:rb:",
+      "targets": [
+        ["id=:rb:", "id"],
+        ["name=editedStatus", "name"],
+        ["css=#\\3Arb\\3A", "css:finder"],
+        ["xpath=//select[@id=':rb:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr/td[10]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2a5440b-f15c-4250-9494-bfed130513fc",
+      "comment": "",
+      "command": "select",
+      "target": "id=:rb:",
+      "targets": [],
+      "value": "label=Свободная"
+    }, {
+      "id": "12f3d977-6a59-4378-8aef-670e3f8ceff6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-contained:nth-child(1)",
+      "targets": [
+        ["css=.MuiButton-contained:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr/td[11]/button", "xpath:idRelative"],
+        ["xpath=//td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d68ffaa-28ae-4033-9f09-d306a24e237a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Mui-focusVisible",
+      "targets": [
+        ["css=.Mui-focusVisible", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr/td[11]/button", "xpath:idRelative"],
+        ["xpath=//td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58d66964-c140-4b77-98d3-1ce671c7a61f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Mui-focusVisible",
+      "targets": [
+        ["css=.Mui-focusVisible", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr/td[11]/button", "xpath:idRelative"],
+        ["xpath=//td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96953696-92d2-48f4-b2fa-74c4c0e1ca15",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Mui-focusVisible",
+      "targets": [
+        ["css=.Mui-focusVisible", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr/td[11]/button", "xpath:idRelative"],
+        ["xpath=//td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f0ce2c8-59d0-4a06-b924-ea9ac07372e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=:rh:",
+      "targets": [
+        ["id=:rh:", "id"],
+        ["name=editedStatus", "name"],
+        ["css=#\\3Arh\\3A", "css:finder"],
+        ["xpath=//select[@id=':rh:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr/td[10]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "311d4182-2163-42eb-95d1-f2a42efb3636",
+      "comment": "",
+      "command": "select",
+      "target": "id=:rh:",
+      "targets": [],
+      "value": "label=Недоступна"
+    }, {
+      "id": "ac4fd2c5-9b5a-4c9d-9d5c-1e8862494d8e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-contained:nth-child(1)",
+      "targets": [
+        ["css=.MuiButton-contained:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr/td[11]/button", "xpath:idRelative"],
+        ["xpath=//td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cb36fa6-531d-4a6f-9f8a-ffea91f3062f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-contained:nth-child(1)",
+      "targets": [
+        ["css=.MuiButton-contained:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr/td[11]/button", "xpath:idRelative"],
+        ["xpath=//td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad3b4213-17f8-4868-99a5-02755f29b506",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiTableRow-root:nth-child(1) .MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiTableRow-root:nth-child(1) .MuiButtonBase-root", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/table/tbody/tr/td[11]/button", "xpath:idRelative"],
+        ["xpath=//td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6448279c-73ac-4a93-938e-834a19ec393f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.MuiTypography-root",
+      "targets": [
+        ["css=.MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='2']/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Данные успешно обновлены!')]", "xpath:innerText"]
+      ],
+      "value": "Данные успешно обновлены!"
+    }, {
+      "id": "2d30056e-2737-41a1-acf9-a4d966c096f2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "59b912e9-b9e4-42aa-839b-0e1f7633135b",
+    "name": "test11",
+    "commands": [{
+      "id": "d88f92b9-ad3d-4376-ba25-5472247155d0",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a72e1a35-ab55-4c1e-b4e9-4d3a6c6f7dac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "120f6e39-c2c4-449d-993b-841c352797c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb4e0b66-1fdd-4ea4-90b2-30158afad0fb",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=phone", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "+375(29)1111111"
+    }, {
+      "id": "ae85a147-00ea-457d-9566-11f9e91fe1d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r3:",
+      "targets": [
+        ["id=:r3:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar3\\3A", "css:finder"],
+        ["xpath=//input[@id=':r3:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "922516bd-9f9b-46c5-a9f2-67c56a087e7b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74294932-793e-42a6-940a-c7a545f3f07a",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r3:",
+      "targets": [
+        ["id=:r3:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar3\\3A", "css:finder"],
+        ["xpath=//input[@id=':r3:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "111"
+    }, {
+      "id": "50b5a94d-6c5f-41b4-b3fc-50b666ded8fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "472d303c-a2ba-4577-9490-6c1fede58787",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "541b1f79-da6f-40ca-ae47-9b8f4474d809",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Авто",
+      "targets": [
+        ["linkText=Авто", "linkText"],
+        ["css=.nav__item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Авто')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/header/div[3]/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cars')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Авто')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6ce49eb-bb96-4e01-a97c-80754fda4962",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Прокат авто Витебск",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "589c2f8c-79e0-43e5-974f-4cb745ecdf04",
+      "comment": "",
+      "command": "click",
+      "target": "css=select",
+      "targets": [
+        ["css=select", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/section[2]/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea6988b9-9080-4f30-b743-95d0905c61bf",
+      "comment": "",
+      "command": "select",
+      "target": "css=select",
+      "targets": [],
+      "value": "label=Сначала дешевые"
+    }, {
+      "id": "b16b45cf-9b10-4c2a-8bb0-d651e31ed89f",
+      "comment": "",
+      "command": "click",
+      "target": "css=select",
+      "targets": [
+        ["css=select", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/section[2]/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1994ce06-e26d-4c3c-87fe-b492391bc136",
+      "comment": "",
+      "command": "select",
+      "target": "css=select",
+      "targets": [],
+      "value": "label=Сначала дорогие"
+    }, {
+      "id": "015099b5-e871-43db-9e2b-c53103d98b0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=select",
+      "targets": [
+        ["css=select", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/section[2]/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1007529b-fc44-427f-be40-68398fee910d",
+      "comment": "",
+      "command": "select",
+      "target": "css=select",
+      "targets": [],
+      "value": "label=По алфавиту (марка автомобиля)"
+    }, {
+      "id": "3db363ba-8e76-4459-b9e2-b400d6c2af13",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "682de68a-4bcc-4ed2-920f-d5bbecbb5b30",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["021491c3-854e-4418-8364-febf03b55e7d"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
